@@ -1,5 +1,7 @@
-const app = require("./base");
+const app = require('./base')
 
-app.listen(3001, function() {
-  console.log("listening on 3001");
-});
+const PORT = +process.env.PORT || 3000;
+
+app.listen(PORT, function(){
+    console.log(`Port started on http://localhost:${PORT}`)
+})
