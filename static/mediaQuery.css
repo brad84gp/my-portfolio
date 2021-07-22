@@ -1,0 +1,61 @@
+@media (min-width: 576px) {
+    #bio {
+        font-size: 16px;
+        height: auto;
+    }
+    .navbar-nav a{
+        margin-left: 95px;
+    }
+
+    #lotr-card img, #jobly-card img , #spoonfull-card img{
+        margin-top: 55%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+   
+    .navbar-nav a{
+        margin-left: 130px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #bio {
+        font-size: 18px;
+    }
+    
+    .navbar-nav a{
+        margin-left: 160px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #bio {
+        font-size: 20px;
+    }
+
+    .navbar-nav a{
+        margin-left: 190px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #bio {
+        font-size: 23px;
+        height: 1130px;
+    }
+
+    #skills {
+        margin-top: 150px;
+        color: whitesmoke;
+        height: 500px;
+    }
+   
+    .navbar-nav a{
+        margin-left: 210px;
+    }
+}

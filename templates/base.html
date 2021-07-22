@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+ 
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <div class="container-xl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav flex-row ml-md-auto d-md-flex">
+            <a href="tel:940-536-5499" data-toggle="popover" data-bs-trigger="hover" data-placement="bottom" data-bs-content="950-536-5499"><img src="/static/NavImages/phone.png" id="cover" ></a>
+            <a href="/static/downloadable-files/resume.docx"  data-toggle="popover"  data-bs-trigger="hover" data-placement="bottom" data-bs-content="Resume"><img src="/static/NavImages/resume.png" id="resume"></a>
+            <a href="https://www.linkedin.com/in/robert-kruger1992" target="_blank"  data-toggle="popover"  data-bs-trigger="hover" data-placement="bottom" data-bs-content="Linkedin"><img src="/static/NavImages/linkedin.png" id="linked"></a>
+            <a href="https://github.com/brad84gp" target="_blank"  data-toggle="popover"  data-bs-trigger="hover" data-placement="bottom" data-bs-content="Github"><img src="/static/NavImages/github.png" id="github"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container-xl" id="bio">
+      
+
+
+        <!-- bio section -->
+
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="row" id="left-col">
+                    <p id="line-1"></p>
+                    <div id="bio-p-background">
+                        <p id="p-bio">My name is <b>Robert Kruger</b> and I am a web developer capable of handling Front-end, Back-end, and Full-stack applications.
+                            Developing code from start to finish gives me a rush like nothing else. I am love what I do
+                            and I can garuntee you wont find anyone with my level of passion. It is true what they say, love what you do and you will never work a day in your life! 
+                        </p>
+                    </div>
+                <p id="line-2"></p>
+                </div>
+            </div>
+            <div class="col-6" id="right-col">
+                <img src="/static/images/photo-of-self.jpg" id="img-bio">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-xl" id="skills">
+      <h2>Skills</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4" >
+        <div class="col">
+          <div class="card h-100" id="skills-card-front">
+            <img src="/static/images/front-end.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Front-End</h5>
+              <p class="card-text">HTML, CSS, JavaScript, React.js, Jinja</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="skills-card-back">
+            <img src="/static/images/back-end.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Back-End</h5>
+              <p class="card-text">Python, Node.js</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="skills-card-database">
+            <img src="/static/images/database.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Database</h5>
+              <p class="card-text">PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="skills-card-server">
+            <img src="/static/images/server.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Server</h5>
+              <p class="card-text">Flask, Express</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xl" id="experience">
+      
+      <h2 id="education-title">Education</h2>
+      <div class="card" id="education-card">
+        <div class="card-body">
+          <h5 class="card-title">Springboard Software Engineering Bootcamp</h5>
+          <p class="card-text">700+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 4 in-depth portfolio projects. Mastered skills in front-end web development, back-end web development, databases, and data structures and algorithms.</p>
+          <a href="https://www.springboard.com/"  target="_blank" class="btn btn-danger">Springboard</a>
+        </div>
+      </div>
+      <div class="card mt-5" id="education-card">
+        <div class="card-body">
+          <h5 class="card-title">Southern New Hampshire University</h5>
+          <p class="card-text">120 credit hours of instruction covering topics such as: Java, Python, C++, Agile, Scrum, UI/UX, Data Structures & Algorithms, Full Stack Development, SDLC (Software Development Lifecycle, Operating platforms, Secure Coding, Reverse Engineering, Software Test Automation & QA, Mobile Architect & Programming, and Client/Server Development </p>
+          <a href="https://www.snhu.edu/online-degrees/bachelors/bs-in-computer-science" target="_blank" class="btn btn-danger">SNHU</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6">
+          <h2 id="project-title">Projects</h2>
+        </div>
+      </div>
+
+      <div class="row" id="projects">
+
+        <div class="col" style="margin: 3em auto; display: flex; justify-content: center;">
+          <div class="card mb-3 " id="lotr-card" >
+              <img src="../static/images/lotr-screenshot.png" class="card-img-top" alt="...">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://lotr-fanpage.herokuapp.com/" target="_blank">Lord of the Rings Fan Page</a></h5>
+                  <br>
+                  <p class="card-subtitle"><b> HTML | CSS | Python | Flask | JavaScript | PostgreSQL</b></p>
+                  <br>
+                  <p class="card-text">This application allows users to find information pertainging to the books, movies and characters through the use of a third party API. Users have the ability to login and register for a personal profile. On their profile, the user is able to search through movies, books, and characters
+                                      and favorite their favorite 3 of each. Users will be able to see this on their profile. Users can also share posts on a live feed where other users are able to see as well.
+                  <p class="card-text"><small class="text-muted">All third party data retrieved from <a href="https://the-one-api.dev/" target="_blank">Lord of the Rings API</a></small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col" style="margin: 3em auto; display: flex; justify-content: center;">
+          <div class="card mb-3" id="jobly-card">
+              <img src="../static/images/jobly.png" class="card-img-top"  alt="...">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://roberts-jobly.surge.sh" target="_blank">Jobly</a></h5>
+                  <br>
+                  <p class="card-subtitle"><b> HTML | CSS | JavaScript | React | Redux | Express | Node | PostgreSQL</b></p>
+                  <br>
+                  <p class="card-text">Job search application that allows users who are logged in and registered to view different oppurtunities. Users can search by company name or by job title. The user then has the oppurtunity to hit apply for the job. The user profile section allows for the user
+                                      to edit their user information. The application also uses JSON schema validation, bcrypt password encryption, and authenticaiton token to verify users acces rights to different routes.
+                  </p>
+                  <p class="card-text"><small class="text-muted">All backend data was provided by <a href="https://www.springboard.com" target="_blank">Springboards bootcamp creators</a></small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col" style="margin: 3em auto; display: flex; justify-content: center;">
+          <div class="card mb-3" id="spoonfull-card">
+              <img src="../static/images/spoon-full.png" class="card-img-top"  alt="...">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="http://spoon-full.surge.sh/" target="_blank">Spoon-Full</a></h5>
+                  <br>
+                  <p class="card-subtitle"><b> HTML | CSS | JavaScript | React | Redux | Express | Node | PostgreSQL</b></p>
+                  <br>
+                  <p class="card-text" >Fullstack applicaiton built using React and Redux on the front and node, express and PostgreSQL on the backend. The application allows users to view recipes, menu items, ingredients, and products. The user has the oppurtunities to view more detailed
+                                      information on each of these routes. They can see macro values, wine pairings,ingredient subsititutes and more. The user is also able to register and login to a personalized profile where they can create a grocery list and save their favorite recipes.
+                                      The user is also able to create a post, or they can share a recipe. All posts and shared recipe end up on a live feed page wehre any and all registered users who are logged in can view them. Users who are not logged in will not have acceess. Users can
+                                      view and leave comments on other users posts as well. Application utalizies front end token checks, back end JSON schema validation, and brcypt password encryption.
+                  </p>
+                  <p class="card-text"><small class="text-muted">All third party data retrieved from <a href="https://spoonacular.com/food-api" target="_blank">Spoonacular</a></small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="container-xl" id="slide-container" >
+
+      <div class="row" id="slide-container">
+        <div id="slides">
+          <iframe src="/" id="slide"></iframe>
+        </div>
+
+        <a id="prev">&#10094;</a>
+        <a id="next">&#10095;</a>
+      </div>
+
+    </div>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
