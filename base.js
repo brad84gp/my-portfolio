@@ -7,11 +7,13 @@ const app = express();
 
 app.use('/static', express.static(__dirname + '/static'));
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.urlencoded({
-  extended: true
-}))
+  extend: true
+}));
+
+app.use(express.json());
 
 nunjucks.configure("templates", {
   autoescape: true,
@@ -19,7 +21,7 @@ nunjucks.configure("templates", {
 });
 
 
-app.use(routes)
+app.use('/', routes)
 
 
 

@@ -2,11 +2,8 @@
 
 
 function startAnimation(){
-    const bio = document.getElementById('p-bio')
     const img = document.querySelector('#bio img')
-    bio.removeAttribute('id', 'p-bio')
     img.removeAttribute('id','img-bio')
-    bio.setAttribute('id', 'bio-p')
     img.setAttribute('id','bio-img')
 }
 
@@ -63,3 +60,5 @@ next.addEventListener('click', (e) => {
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 });
+
+

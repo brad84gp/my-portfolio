@@ -84,6 +84,7 @@ body {
     color: whitesmoke;
     border-bottom: 1px solid whitesmoke;
     margin-bottom: 100px;
+    text-align: end;
 
 }
 
@@ -219,13 +220,15 @@ body {
 }
 
 
-
-
-
-
-
-
 /************* Letters of recomendation ***************/
+
+#reference-letters{
+    margin-top: 50px;
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: start;    
+    padding-bottom: 2%;
+}
 
 #slide-container {
     width: auto;
@@ -267,6 +270,30 @@ body {
 #next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+#contact-information{
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: red 5px double;
+}
+
+#contact-information a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contact-information a:hover{
+    color: royalblue;
+}
+
+#contact-li{
+    font-size: x-large;
+    list-style:  none;
+    margin-top: 5%;
 }
   
 
