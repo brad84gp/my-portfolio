@@ -24,7 +24,7 @@ function showSlides(n){
     let slide = document.getElementById('slide')
     slides.style.display = 'block'
     if(n == 1){
-        slide.setAttribute('src', '/static/downloadable-files/marlon-reference.pdf')
+        slide.setAttribute('src', '/static/downloadable-files/Marlon-reference.pdf')
     }
     if(n == 2){
         slide.setAttribute('src', '/static/downloadable-files/matt-reference.pdf')
