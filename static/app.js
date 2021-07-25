@@ -27,14 +27,14 @@ function showSlides(n){
     let slide = document.getElementById('slide')
     slides.style.display = 'block'
     if(n == 1){
-        slide.setAttribute('src', '/static/downloadable-files/yvonne-reference.pdf')
+        slide.setAttribute('src', '/static/downloadable-files/marlon-reference.pdf')
     }
     if(n == 2){
         slide.setAttribute('src', '/static/downloadable-files/matt-reference.pdf')
     }
-    // if(n == 3){
-    //     slide.setAttribute('src', '/static/downloadable-files/yvonne-reference.pdf')
-    // }
+    if(n == 3){
+        slide.setAttribute('src', '/static/downloadable-files/yvonne-reference.pdf')
+    }
 }
 
 const prev = document.getElementById('prev')
@@ -42,7 +42,7 @@ const next = document.getElementById('next')
 
 prev.addEventListener('click', (e) => {
     if(slideIndex == 1){
-        slideIndex = 2
+        slideIndex = 3
         showSlides(slideIndex)
     } else {
         slideIndex -= 1
@@ -51,7 +51,7 @@ prev.addEventListener('click', (e) => {
 })
 
 next.addEventListener('click', (e) => {
-    if(slideIndex == 2){
+    if(slideIndex == 3){
         slideIndex = 1
         showSlides(slideIndex)
     } else {
