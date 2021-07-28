@@ -82,7 +82,8 @@ body {
 
 #skills h2 {
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 0, 0);
     margin-bottom: 100px;
     text-align: end;
 
@@ -165,7 +166,8 @@ body {
 #education-title {
     width: 50%;
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 0, 0);
     margin-bottom: 50px;
     padding-bottom: 2%;
 }
@@ -189,7 +191,8 @@ body {
 #project-title{
     margin-top: 50px;
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 0, 0);
     text-align: end;    
     padding-bottom: 2%;
 }
@@ -225,7 +228,8 @@ body {
 #reference-letters{
     margin-top: 50px;
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 0, 0);
     text-align: start;    
     padding-bottom: 2%;
 }
